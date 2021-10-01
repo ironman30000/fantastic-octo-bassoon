@@ -40,6 +40,6 @@ int main()
     }
     f(i,1,n)
     {
-        cout<<s[fin(i)]-1<<" ";
+        cout<<s[fin(i)]-1<<endl;
     }
 }
