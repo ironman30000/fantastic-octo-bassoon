@@ -20,14 +20,6 @@ void mak(int a,int b)
     s[a]+=s[b];
 }
 
-void mak1(int a,int b)
-{
-    if(s[a]<s[b])
-        swap(a,b);
-    p[b]=a;
-    s[a]+=s[b];
-}
-
 int main()
 {       
     
