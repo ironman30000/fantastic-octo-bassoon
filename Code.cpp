@@ -31,6 +31,7 @@ int main()
         p[i]=i;
         s[i]=1;
     }
+    
     f(i,1,m)
     {
         cin>>x>>y;
@@ -39,6 +40,7 @@ int main()
         if(x!=y)
             mak(x,y);
     }
+    
     f(i,1,n)
         cout<<s[fin(i)]-1<<endl;
     
