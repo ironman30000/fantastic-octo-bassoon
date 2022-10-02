@@ -42,3 +42,17 @@ int main()
     cin>>n>>m;
     
 }
+int fi1n(int i)
+{
+    if(i==p[i])
+        return i;
+    return p[i]=fin(p[i]);
+}
+
+void m1ak(int a,int b)
+{
+    if(s[a]<s[b])
+        swap(a,b);
+    p[b]=a;
+    s[a]+=s[b];
+}
