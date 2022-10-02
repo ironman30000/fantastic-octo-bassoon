@@ -38,19 +38,5 @@ int main()
     
     int n,m,x,y;
     cin>>n>>m;
-    f(i,0,n)
-    {
-        p[i]=i;
-        s[i]=1;
-    }
-    f(i,1,m)
-    {
-        cin>>x>>y;
-        x=fin(x);
-        y=fin(y);
-        if(x!=y)
-            mak(x,y);
-    }
-    f(i,1,n)
-        cout<<s[fin(i)];
+    
 }
