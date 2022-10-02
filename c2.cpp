@@ -19,12 +19,7 @@ void mak(int a,int b)
     p[b]=a;
     s[a]+=s[b];
 }
-int fin1(int i)
-{
-    if(i==p[i])
-        return i;
-    return p[i]=fin(p[i]);
-}
+
 
 int main()
 {       
