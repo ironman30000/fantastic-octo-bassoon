@@ -12,15 +12,6 @@ int fin(int i)
     return p[i]=fin(p[i]);
 }
 
-
-void m1ak(int a,int b)
-{
-    if(s[a]<s[b])
-        swap(a,b);
-    p[b]=a;
-    s[a]+=s[b];
-}
-
 void mak(int a,int b)
 {
     if(s[a]<s[b])
