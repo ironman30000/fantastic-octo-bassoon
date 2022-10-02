@@ -12,12 +12,6 @@ int fin(int i)
     return p[i]=fin(p[i]);
 }
 
-int fi1n(int i)
-{
-    if(i==p[i])
-        return i;
-    return p[i]=fin(p[i]);
-}
 
 void m1ak(int a,int b)
 {
