@@ -12,6 +12,20 @@ int fin(int i)
     return p[i]=fin(p[i]);
 }
 
+int fi1n(int i)
+{
+    if(i==p[i])
+        return i;
+    return p[i]=fin(p[i]);
+}
+
+void m1ak(int a,int b)
+{
+    if(s[a]<s[b])
+        swap(a,b);
+    p[b]=a;
+    s[a]+=s[b];
+}
 
 void mak(int a,int b)
 {
@@ -44,18 +58,4 @@ int main()
     f(i,1,n)
         cout<<s[fin(i)]-1<<endl;
     
-}
-int fi1n(int i)
-{
-    if(i==p[i])
-        return i;
-    return p[i]=fin(p[i]);
-}
-
-void m1ak(int a,int b)
-{
-    if(s[a]<s[b])
-        swap(a,b);
-    p[b]=a;
-    s[a]+=s[b];
 }
