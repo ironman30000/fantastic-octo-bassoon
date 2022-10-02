@@ -44,18 +44,3 @@ int main()
     
 }
 
-void mak1(int a,int b)
-{
-    if(s[a]<s[b])
-        swap(a,b);
-    p[b]=a;
-    s[a]+=s[b];
-}
-
-int fin1(int i)
-{
-    if(i==p[i])
-        return i;
-    return p[i]=fin(p[i]);
-}
-
